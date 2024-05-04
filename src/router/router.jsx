@@ -11,6 +11,7 @@ import CategoriesLayout from "../layout/CategoriesLayout";
 // pages
 import Home from "../pages/Home";
 import Categoris from "../pages/Categoris";
+import Trash from "../pages/Trash";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,7 @@ export const router = createBrowserRouter(
           <Route index element={<Categoris />} />
           <Route path=":name" element={<Categoris />} />
         </Route>
+        <Route path="trash" element={<Trash />} />
       </Route>
     </Route>,
   ),

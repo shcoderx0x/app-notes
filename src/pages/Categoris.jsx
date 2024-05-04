@@ -8,7 +8,7 @@ import { useState } from "react";
 import AddNote from "../components/addNote";
 
 export default function Categoris() {
-  const [isAddNote, setIsAddNote] = useState(true);
+  const [isAddNote, setIsAddNote] = useState(false);
 
   return (
     <div className="flex items-start justify-between gap-5 p-5 text-gray-font xl:justify-center ">
